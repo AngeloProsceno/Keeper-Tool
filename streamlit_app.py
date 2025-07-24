@@ -78,7 +78,7 @@ draft_year_to_prev_league_id = {
 }
 
 st.title("Who the F*CK can I keep?")
-
+st.text("if you cant read anything hit the 3 dots in the top right (SETTINGS) & change to 'light mode'")
 draft_year = st.selectbox("Draft Year", [2024, 2025], index=1)
 
 if st.button("Fetch Data"):
