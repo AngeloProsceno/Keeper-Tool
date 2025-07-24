@@ -77,7 +77,7 @@ draft_year_to_prev_league_id = {
     2025: '1120508461290291200',  # 2024 season for 2025 draft
 }
 
-st.title("Who the f*ck can i even keep how does this work Angelo please help me :(")
+st.title("Who the F*CK can I keep?")
 
 draft_year = st.selectbox("Draft Year", [2024, 2025], index=1)
 
