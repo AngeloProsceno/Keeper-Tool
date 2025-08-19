@@ -4,6 +4,7 @@ import pandas as pd
 from collections import defaultdict
 
 st.set_page_config(layout="wide")
+st.set_page_config(page_title="SFGL: Keeper-Tool", page_icon="NPC.jpg")
 
 # Add CSS for HTML tables with a modern navy blue and grey color scheme
 st.markdown("""
@@ -77,7 +78,6 @@ draft_year_to_prev_league_id = {
     2025: '1120508461290291200',  # 2024 season for 2025 draft
 }
 
-st.set_page_config(page_title="Player Keeper Tool")
 st.title("Who the FUCK can I keep?")
 st.text("if you cant read anything hit the 3 dots in the top right (SETTINGS) & change to 'light mode'")
 draft_year = st.selectbox("Draft Year", [2024, 2025], index=1)
