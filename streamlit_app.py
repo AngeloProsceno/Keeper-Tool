@@ -77,11 +77,12 @@ draft_year_to_prev_league_id = {
     2025: '1120508461290291200',  # 2024 season for 2025 draft
 }
 
-st.title("Who the F*CK can I keep?")
+st.set_page_config(page_title="Player Keeper Tool")
+st.title("Who the FUCK can I keep?")
 st.text("if you cant read anything hit the 3 dots in the top right (SETTINGS) & change to 'light mode'")
 draft_year = st.selectbox("Draft Year", [2024, 2025], index=1)
 
-if st.button("Fetch Data"):
+if st.button("Show me plz"):
     league_id = draft_year_to_prev_league_id.get(draft_year)
     if not league_id:
         st.error("Invalid Draft Year selected.")
